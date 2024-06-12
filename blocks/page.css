@@ -125,19 +125,18 @@
 }
 
 .footer {
-  box-sizing: border-box;
+  margin-top: 67px;
 }
 
-.footer__content [] .footer__copyright {
-  width: 318px;
-  height: 18px;
-  margin-top: 67px;
+.footer__copyright {
   max-width: 880px;
+  margin: auto;
+  height: 18px;
+  margin-bottom: 60px;
 }
 
 @media screen and (max-width: 480px) {
   .profile {
-    background-color: pink;
     flex-direction: column;
   }
 
