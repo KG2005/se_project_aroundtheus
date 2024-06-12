@@ -125,12 +125,10 @@
 }
 
 .footer {
+  box-sizing: border-box;
 }
 
-.footer__copyright {
-  position: relative;
-  display: flex;
-  justify-content: center;
+.footer__content [] .footer__copyright {
   width: 318px;
   height: 18px;
   margin-top: 67px;
